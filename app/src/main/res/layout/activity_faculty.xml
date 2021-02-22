@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".FacultyActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/f_1st"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp">
+
+        <Button
+            android:id="@+id/cse"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/link"
+            android:padding="18dp"
+            android:text="CSE"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textSize="16sp"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/bba"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/link"
+            android:gravity="center"
+            android:padding="18dp"
+            android:text="BbA"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/f_2nd"
+        android:layout_marginTop="160dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+        >
+
+
+        <Button
+            android:id="@+id/eee"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/link"
+            android:gravity="center"
+            android:padding="18dp"
+            android:text="EEE"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/cv"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/link"
+            android:gravity="center"
+            android:padding="18dp"
+            android:text="CV"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/f_3rd"
+        android:layout_marginTop="260dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+        >
+
+
+        <Button
+            android:id="@+id/Architecture"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/link"
+            android:gravity="center"
+            android:padding="18dp"
+            android:text="Architecture"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/english"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/link"
+            android:gravity="center"
+            android:padding="18dp"
+            android:text="English"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/f_4th"
+        android:layout_marginTop="360dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+        >
+
+
+        <Button
+            android:id="@+id/thm"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/link"
+            android:gravity="center"
+            android:padding="18dp"
+            android:text="THM"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/law"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+
+
+            android:layout_margin="15dp"
+            android:background="@drawable/link"
+            android:gravity="center"
+            android:padding="18dp"
+            android:text="Law"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/f_5th"
+        android:layout_marginTop="460dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+        >
+
+
+        <Button
+            android:id="@+id/is"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/link"
+            android:gravity="center"
+            android:padding="18dp"
+            android:text="IS"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/ph"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/link"
+            android:gravity="center"
+            android:padding="18dp"
+            android:text="PH"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/f_6th"
+        android:layout_marginTop="460dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        >
+
+
+        <Button
+            android:id="@+id/bangla"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/link"
+            android:gravity="center"
+            android:padding="18dp"
+            android:text="Bangla"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

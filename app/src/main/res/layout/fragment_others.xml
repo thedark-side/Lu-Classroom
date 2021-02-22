@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".OthersFragment">
+
+    <Button
+        android:id="@+id/result_lu"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:padding="18dp"
+        android:text="Result"
+        android:textAllCaps="false"
+        android:background="@drawable/link"
+        android:textColor="@color/text_color"
+        android:textSize="16sp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/class_routine"
+        android:layout_below="@+id/result_lu"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/link"
+        android:textColor="@color/text_color"
+        android:padding="18dp"
+        android:text="Class Routine"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:gravity="center"
+        />
+
+
+    <Button
+        android:id="@+id/faculty_members"
+        android:layout_below="@+id/class_routine"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/link"
+        android:textColor="@color/text_color"
+        android:padding="18dp"
+        android:text="Faculty Members"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/student_registration"
+        android:layout_below="@+id/faculty_members"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="18dp"
+        android:layout_marginTop="25dp"
+        android:text="Student Registration"
+        android:textAllCaps="false"
+        android:background="@drawable/link"
+        android:textColor="@color/text_color"
+        android:textSize="16sp"
+        android:gravity="center"
+        />
+
+
+</RelativeLayout>
